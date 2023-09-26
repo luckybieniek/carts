@@ -1,0 +1,417 @@
+{
+    "en": {
+        "main": {
+            "weekdays": {
+                "mon": "Monday",
+                "tue": "Tuesday",
+                "wed": "Wednesday",
+                "thu": "Thursday",
+                "fri": "Friday",
+                "sat": "Saturday",
+                "sun": "Sunday"
+            }
+        },
+        "header": {
+            "language": "Language: ",
+            "select_language_en": "English",
+            "select_language_pl": "Polish",
+            "logged_as": "Logged in as ",
+            "log_out": "Log out"
+        },
+        "footer": {
+            "privacy_policy": "Privacy policy",
+            "copyright": "© 2023 LB and PC. All rights reserved",
+            "modal_content": {
+                "header": "Privacy Policy",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin, enim ac finibus tincidunt, lorem ante tincidunt urna, eget lobortis ipsum lacus at urna.",
+                "return_btn": "Return"
+            }
+        },
+        "menu": {
+            "my_availability": "My Availability",
+            "my_schedule": "My Schedule",
+            "cong_schedule": "Congregation Schedule",
+            "my_account": "My Account",
+            "help": "Help",
+            "assign_shifts": "Assign Shifts",
+            "manage_shifts": "Manage Shifts",
+            "administration": "Administration"
+        },
+
+        "user_availability": {
+            "title_header": "My Availability",
+            "section_intro": "Choose a shift and select your availability:",
+            "modal_content": {
+                "select_your_availability": "Please select your availability for this shift:",
+                "available_btn": "I'm available",
+                "unavailable_btn": "I'm not available",
+                "return_btn": "Return"
+            }
+        },
+        "user_schedule": {
+            "title_header": "My Schedule",
+            "section_intro": "The schedule below shows all your assigned shifts. To update your availability, please use ",
+            "link_my_availability": "My Availability",
+            "modal_content": {
+                "publishers_assigned": "Publishers assigned to this shift:",
+                "return_btn": "Return"
+            }
+        },
+        "cong_schedule": {
+            "title_header": "Congregation Schedule",
+            "section_intro": "The schedule includes all assigned publishers and shifts. Click on selected shift to see contact numbers to its assigned publishers.To update your availability, go to ",
+            "link_my_availability": "My Availability",
+            "modal_content": {
+                "assigned_pubs": "Assigned publishers:"
+            }
+        },
+        "my_account": {
+            "title_header": "My Account",
+            "header_user_info": "Your contact details",
+            "name": "Name:",
+            "phone": "Contact telephone:",
+            "congregation": "Congregation:",
+            "change_details_btn": "Change my contact details",
+            "header_acc_settings": "Account settings",
+            "role": "User type:",
+            "shift_admins": "Shift Admins:",
+            "cong_admins": "Congregation Admins:",
+            "admin_contact": "contact: ",
+            "email": "Email (username):",
+            "language": "App language (saved in cookies): ",
+            "select_language_en": "English",
+            "select_language_pl": "Polish",
+            "request_change_username": "Request change of username[*WIP]",
+            "request_change_password": "Change password[*WIP][*WIP]",
+            "modal_content": {
+                "header": "Change my contact details",
+                "update_details_btn": "Update details",
+                "caution_refresh": "Note: page will refresh sfter updating your details",
+                "return_btn": "Return"
+            }
+        },
+        "welcome": {
+            "welcome": "Welcome, ",
+            "paragraph_1": "App user instructions... lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin, enim ac finibus tincidunt, lorem ante tincidunt urna, eget lobortis ipsum lacus at urna.",
+            "paragraph_2": "Paragraph 2... lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin, enim ac finibus tincidunt, lorem ante tincidunt urna, eget lobortis ipsum lacus at urna."
+        },
+        "assign_shifts": {
+            "title_header": "Assign Shifts",
+            "section_intro": "Publishers' availability (select a shift below and assign available publishers):",
+            "modal_content": {
+                "available_pubs": "Publishers availabe for this shift:"
+            }
+        },
+        "manage_shifts": {
+            "title_header": "Manage Shifts",
+            "settings_add_shift": {
+                "settings_header": "Add new weekly shift",
+                "form_error": "Incorrect shift details. Make sure you completed all fields and try again.",
+                "form_select_location": "Select location",
+                "form_select_day": "Select day:",
+                "form_select_start_time": "Input shift start time (HH:MM format):",
+                "form_select_end_time": "Input shift end time (HH:MM format):",
+                "form_button": "Add new shift",
+                "weekdays": {
+                    "mon": "Monday",
+                    "tue": "Tuesday",
+                    "wed": "Wednesday",
+                    "thu": "Thursday",
+                    "fri": "Friday",
+                    "sat": "Saturday",
+                    "sun": "Sunday"
+                }
+            },
+            "settings_edit_locations": {
+                "settings_header": "Edit locations",
+                "form_error": "Input new location name and try again.",
+                "current_locations": "Current locations:",
+                "location_delete": "(delete)",
+                "form_type_new_location": "Input new location name:",
+                "form_button": "Add new location"
+            },
+            "modal_content_delete_shift": {
+                "header": "Delete shift: ",
+                "in": " in ",
+                "pargraph_sure_delete": "Are you sure you want to delete this shift?",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "modal_content_delete_location": {
+                "header": "Delete location: ",
+                "pargraph_sure_delete": "Are you sure you want to delete this location?",
+                "pargraph_warning": "All shifts and assignments at this location will also be deleted!",
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "administration": {
+            "title_header": "Administration",
+            "section_manage_users": {
+                "section_header": "Manage users",
+                "settings_active_users": {
+                    "header": "Active users",
+                    "paragraph": "Click on a user to view user options",
+                    "publishers": "Publishers:",
+                    "cong_admins": "Gongregation Admins",
+                    "shift_admins": "Shift Admins:"
+                },
+                "settings_add_user": {
+                    "header": "Add A New User",
+                    "label_name": "Full name:",
+                    "label_email": "Email:",
+                    "add_user_btn": "Add new user",
+                    "error": "Incorrect new user details. Make sure you have added all details correctly and try again "
+                }
+            },
+            "section_cong_settings": {
+                "section_header": "Congregation settings",
+                "settings_shift_options": {
+                    "header": "Shift settings",
+                    "min_pubs_on_shift": "Minimum number of publishers required on shift:"
+                },
+                "settings_privacy_options": {
+                    "header": "Privacy options",
+                    "show_phone_numbers": "Show phone numbers:"
+                }
+            },
+            "modal_content_manage_user": {}
+        },
+        "shift_card": {
+            "my_availability": {
+                "status_available": "I'm available",
+                "status_always_available": "I'm available regularly"
+            },
+            "assign_shifts": {
+                "available": "Available: ",
+                "assigned": "Assigned: ",
+                "status_incomplete": "(Incomplete cover)",
+                "status_not_enough_available": "(Not enough available)",
+                "status_none_available": "(None available)"
+            },
+            "cong_schedule": {
+                "incomplete": "(Incomplete cover)"
+            },
+            "user_schedule": {
+                "incomplete": "(Incomplete cover)"
+            },
+            "manage_shift": {
+                "delete_shift": "Delete shift"
+            }
+        },
+        "week_browser": {
+            "previous": "Previous",
+            "next": "Next",
+            "week_commencing": "Week commencing: ",
+            "current_week": "(Current week)",
+            "show_current_week": "Show current week"
+        }
+    },
+    "pl": {
+        "main": {
+            "weekdays": {
+                "mon": "Poniedziałek",
+                "tue": "Wtorek",
+                "wed": "Środa",
+                "thu": "Czwartek",
+                "fri": "Piątek",
+                "sat": "Sobota",
+                "sun": "Niedziela"
+            }
+        },
+        "header": {
+            "language": "Język: ",
+            "select_language_en": "angielski",
+            "select_language_pl": "polski",
+            "logged_as": "Zalogowany jako ",
+            "log_out": "Wyloguj"
+        },
+        "footer": {
+            "privacy_policy": "Polityka prywatności",
+            "copyright": "© 2023 LB i PC. Wszelkie prawa zastrzeżone",
+            "modal_content": {
+                "header": "Polityka prywatności",
+                "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin, enim ac finibus tincidunt, lorem ante tincidunt urna, eget lobortis ipsum lacus at urna.",
+                "return_btn": "Powrót"
+            }
+        },
+        "menu": {
+            "my_availability": "Moja dostępność",
+            "my_schedule": "Mój grafik",
+            "cong_schedule": "Grafik zborowy",
+            "my_account": "Moje konto",
+            "help": "Pomoc",
+            "assign_shifts": "Przydziel zmiany",
+            "manage_shifts": "Ustawienia zmian",
+            "administration": "Administracja"
+        },
+        "user_availability": {
+            "title_header": "Moja dostępność TEST",
+            "section_intro": "Wybierz zmianę i zaznacz lub uaktualnij swoją dostępność:",
+            "modal_content": {
+                "select_your_availability": "Zaznacz swoją dostępność na tę zmianę:",
+                "available_btn": "Jestem dostępny ",
+                "unavailable_btn": "Nie jestem dostępny",
+                "return_btn": "Powrót"
+            }
+        },
+        "user_schedule": {
+            "title_header": "Mój grafik",
+            "section_intro": "Grafik obejmuje wszystkie przydzielone Ci zmiany. Żeby zmienić swoją dostępność przejdź do sekcji ",
+            "link_my_availability": "My Availability",
+            "modal_content": {
+                "publishers_assigned": "Osoby przydzielone na tę zmianę:",
+                "return_btn": "Powrót"
+            }
+        },
+        "cong_schedule": {
+            "title_header": "Grafik zborowy",
+            "section_intro": "Grafik obejmuje wszystkich głosicieli przydzielonych na zmiany. Kliknij na wybraną zmianę, żeby zobaczyć numery kontaktowe do uczestników zmiany. Żeby zmienić swoją dostępność przejdź do sekcji ",
+            "link_my_availability": "My Availability",
+            "modal_content": {
+                "assigned_pubs": "Przydzieleni głosiciele:"
+            }
+        },
+        "my_account": {
+            "title_header": "Moje Konto",
+            "header_user_info": "Twoje dane kontaktowe",
+            "name": "Imię i nazwisko:",
+            "phone": "Telefon kontaktowy:",
+            "congregation": "Zbór:",
+            "change_details_btn": "Zmień moje dane kontaktowe",
+            "header_acc_settings": "Ustawienia konta",
+            "role": "Rodzaj uytkownika:",
+            "shift_admins": "Adminstratorzy zmian:",
+            "cong_admins": "Adminstratorzy zboru:",
+            "admin_contact": "kontakt: ",
+            "email": "Email (nazwa użytkownika):",
+            "language": "Język aplikacji (zapisany w cookies): ",
+            "select_language_en": "angielski",
+            "select_language_pl": "polski",
+            "request_change_username": "Poproś o zmianę nazwy użytkownika[*WIP]",
+            "request_change_password": "Zmień hasło[*WIP][*WIP]",
+            "modal_content": {
+                "header": "Zmień moje dane",
+                "update_details_btn": "Aktualizuj dane",
+                "caution_refresh": "Uwaga - po zaktualizowaniu swoich danych strona zostanie odświeżona",
+                "return_btn": "Powrót"
+            }
+        },
+        "welcome": {
+            "welcome": "Witaj, ",
+            "paragraph_1": "Instukcje korzystania z apki... lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin, enim ac finibus tincidunt, lorem ante tincidunt urna, eget lobortis ipsum lacus at urna.",
+            "paragraph_2": "Akapit 2... lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin, enim ac finibus tincidunt, lorem ante tincidunt urna, eget lobortis ipsum lacus at urna."
+        },
+        "assign_shifts": {
+            "title_header": "Przydziel zmiany",
+            "section_intro": "Dostępność głosicieli (wybierz zmianę i przydziel dostępnych głosicieli):",
+            "modal_content": {
+                "available_pubs": "Głosiciele dostępni na tę zmianę: "
+            }
+        },
+        "manage_shifts": {
+            "title_header": "Ustawienia zmian",
+            "settings_add_shift": {
+                "settings_header": "Dodaj nową cotygodniową zmianę",
+                "form_error": "Nieprawidłowe dane zmiany. Upewnij się, że prawidłowo podałeś wszystkie dane i spróbuj ponownie.",
+                "form_select_location": "Wybierz lokalizację:",
+                "form_select_day": "Wybierz dzień tygodnia:",
+                "form_select_start_time": "Wpisz godzinę rozpoczęcia zmiany (format: GG:MM):",
+                "form_select_end_time": "Wpisz godzinę zakończenia zmiany (format: GG:MM):",
+                "form_button": "Dodaj nową zmianę",
+                "weekdays": {
+                    "mon": "Poniedziałek",
+                    "tue": "Wtorek",
+                    "wed": "Środa",
+                    "thu": "Czwartek",
+                    "fri": "Piątek",
+                    "sat": "Sobota",
+                    "sun": "Niedziela"
+                }
+            },
+            "settings_edit_locations": {
+                "settings_header": "Edytuj lokalizacje",
+                "form_error": " Wpisz nazwę nowej lokalizacji i spróbuj ponownie.",
+                "current_locations": "Obecne lokalizacje:",
+                "location_delete": "(usuń)",
+                "form_type_new_location": "Wpisz nową lokalizację:",
+                "form_button": "Dodaj nową lokalizację"
+            },
+            "modal_content_delete_shift": {
+                "header": "Usuń zmianę: ",
+                "in": " w ",
+                "pargraph_sure_delete": "Czy na pewno chcesz usunąć tę zmianę?",
+                "yes": "Tak",
+                "no": "Nie"
+            },
+            "modal_content_delete_location": {
+                "header": "Usuń lokalizację: ",
+                "pargraph_sure_delete": "Czy na pewno chcesz usunąć tę lokację?",
+                "pargraph_warning": "Wszystkie zmiany przydzielone w tej lokalizacji zostaną usunięte!",
+                "yes": "Tak",
+                "no": "Nie"
+            }
+        },
+        "administration": {
+            "title_header": "Administracja",
+            "section_manage_users": {
+                "section_header": "Zarządzanie użytkownikami",
+                "settings_active_users": {
+                    "header": "Aktywni użytkownicy",
+                    "paragraph": "Kliknij na użytkownika, żeby zobaczyć opcje:",
+                    "publishers": "Głosiciele:",
+                    "cong_admins": "Administratorzy zboru:",
+                    "shift_admins": "Administratorzy zmian:"
+                },
+                "settings_add_user": {
+                    "header": "Dodaj nowego użytkownika",
+                    "label_name": "Imię i nazwisko:",
+                    "label_email": "Email:",
+                    "add_user_btn": "Dodaj nowego użytkownika",
+                    "error": "Nieprawidłowe dane nowego użytkownika. Upewnij się, że prawidłowo podałeś wszystkie dane i spróbuj ponownie."
+                }
+            },
+            "section_cong_settings": {
+                "section_header": "Ustawienia zboru",
+                "settings_shift_options": {
+                    "header": "Opcje zmian",
+                    "min_pubs_on_shift": "Minimalna liczba głosiceli na zmianie:"
+                },
+                "settings_privacy_options": {
+                    "header": "Opcje prywatności",
+                    "show_phone_numbers": "Udostępniaj numery telefonów:"
+                }
+            },
+            "modal_content_manage_user": {}
+        },
+        "shift_card": {
+            "my_availability": {
+                "status_available": "Jestem dostępny",
+                "status_always_available": "Jestem dostępny regularnie"
+            },
+            "assign_shifts": {
+                "available": "Dostępni: ",
+                "assigned": "Przydzieleni: ",
+                "status_incomplete": "(Obsada niepełna)",
+                "status_not_enough_available": "(Za mało chętnych)",
+                "status_none_available": "(Brak chętnych)"
+            },
+            "cong_schedule": {
+                "incomplete": "(Obsada niepełna)"
+            },
+            "user_schedule": {
+                "incomplete": "(Obsada niepełna)"
+            },
+            "manage_shift": {
+                "delete_shift": "Usuń zmianę"
+            }
+        },
+        "week_browser": {
+            "previous": "Poprzedni",
+            "next": "Następny",
+            "week_commencing": "Tydzień od: ",
+            "current_week": "(Bieżący tydzień)",
+            "show_current_week": "Pokaż bieżący tydzień"
+        }
+    }
+}

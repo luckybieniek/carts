@@ -1,0 +1,22 @@
+.home {
+    background-color: #fff;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 18px;
+    min-height: 100vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.home_main {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        margin: 0 0;
+        padding: 20px;
+    }
+    .home_main {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,33 @@
+.footer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_paragraph {
+    margin: 20px 20px 20px 0px;
+    color: #626262;
+    font-size: 0.8rem;
+}
+
+.footer_link {
+    color: #345996;
+    cursor: pointer;
+}
+
+.footer_link:active,
+.footer_link:hover {
+    color: #1f3861;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        justify-content: center;
+    }
+    .copyright {
+        margin: 20px 0px 10px 0px;
+        color: #626262;
+        font-size: 0.6rem;
+    }
+}

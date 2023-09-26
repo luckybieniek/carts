@@ -1,0 +1,46 @@
+.button {
+    border: none;
+    background-color: #345996;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* border-radius: 3px; */
+}
+
+.red {
+    background-color: #be6161;
+}
+
+.green {
+    background-color: #417548;
+}
+
+.orange {
+    background-color: #a17635;
+}
+
+.settings_orange {
+    background-color: #d17325;
+}
+
+.grey {
+    background-color: #b9b9b9;
+    color: #373433;
+}
+
+.settings_btn {
+    font-size: 0.8rem;
+    color: #373433;
+    background-color: #ebe9e9;
+    border: solid 1px #b9b9b9;
+}
+
+.light_blue {
+    background-color: #4c80d3;
+}
+
+.button:hover,
+.button:active {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}

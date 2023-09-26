@@ -1,0 +1,193 @@
+.settings_flex_blank {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_header {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.section_line_divider {
+    width: 100%;
+    border-bottom: 1px solid #c5c5c5;
+    margin-bottom: 16px;
+}
+
+.section_para {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.in_para_section_link {
+    color: #345996;
+    cursor: pointer;
+}
+
+.in_para_section_link:active,
+.in_para_section_link:hover {
+    color: #1f3861;
+    text-decoration: underline;
+}
+
+.day_name {
+    font-weight: 600;
+}
+
+.day_date {
+    color: #8b8b8b;
+    font-weight: 400;
+}
+
+.section_grid_container {
+    border: solid 1px #c5c5c5;
+    padding: 10px;
+}
+.section_slots_grid {
+    display: flex;
+    gap: 14px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section_slots_grid__day {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+    width: 0;
+}
+
+.section_slots__day_name {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 6px;
+    height: 40px;
+}
+
+.section_slots__day_name_only {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 6px;
+    /* height: 40px; */
+}
+
+.settings_container {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.settings_section {
+    /* background-color: #f0f0f0; */
+    font-size: 0.8rem;
+    border: solid 1px #c5c5c5;
+    flex-basis: 47%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.settings_header {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.settings_subheader {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.settings_data_section {
+    margin-bottom: 12px;
+}
+
+.settings_label {
+    color: #8b8b8b;
+    margin-bottom: 4px;
+}
+
+.settings_link {
+    color: #345996;
+    margin-bottom: 10px;
+}
+.settings_link:hover,
+.settings_link:active {
+    color: #1f3861;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login_input_field {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e2e2e2;
+    /* border-radius: 3px; */
+    border: none;
+}
+
+.login_input_field:hover,
+.login_input_field:active,
+.login_input_field:focus {
+    background-color: #f0f0f0;
+    outline: none;
+}
+
+.settings_button {
+    /* margin-top: 18px; */
+    font-size: 0.8rem;
+    color: #373433;
+    background-color: #ebe9e9;
+    border: solid 1px #b9b9b9;
+    padding: 10px 10px;
+    cursor: pointer;
+    /* border-radius: 3px; */
+}
+
+.settings_button:hover,
+.settings_button:active {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
+
+.warning_red {
+    color: red;
+}
+
+.dev_red {
+    color: red;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .section_slots_grid {
+        flex-direction: column;
+    }
+
+    .section_slots_grid__day {
+        width: 100%;
+    }
+
+    .section_slots__day_name {
+        margin-top: 14px;
+        margin-bottom: 0;
+    }
+
+    .settings_container {
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .settings_flex_blank {
+        flex-direction: column;
+    }
+}

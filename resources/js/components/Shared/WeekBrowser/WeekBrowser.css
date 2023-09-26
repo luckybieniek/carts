@@ -1,0 +1,76 @@
+.weeks_container {
+    margin: 0px 64px 0px 64px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #c5c5c5;
+}
+
+.weeks_btn {
+    color: #345996;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weeks_btn * {
+    color: #345996;
+    font-size: 0.8rem;
+}
+
+.weeks_btn:hover,
+.weeks_btn:active {
+    background-color: #3568bb25;
+}
+
+.weeks_btn_icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.weeks_selected_week {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.week_label {
+    font-size: 0.9rem;
+}
+
+.week_data {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.current_week {
+    font-size: 0.9rem;
+    color: #8b8b8b;
+}
+
+.return_current_week {
+    font-size: 0.9rem;
+    color: #345996;
+}
+
+.return_current_week:hover,
+.return_current_week:active {
+    color: #17325e;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    .weeks_container {
+        margin: 0 0 10px 0;
+    }
+
+    .weeks_btn_text {
+        display: none;
+    }
+
+    .week_label {
+        display: none;
+    }
+}
